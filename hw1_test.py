@@ -58,6 +58,7 @@ class TestCases(unittest.TestCase):
         result = hw1.add_prices(input1, input2)
         expected = self.Price(105, 24)
         self.assertEqual(expected, result)
+
     # Part 5
     from data import Rectangle
     from data import Point
@@ -120,5 +121,6 @@ class TestCases(unittest.TestCase):
         result = hw1.below_pay_average(input)
         expected = ["Damian"]
         self.assertEqual(expected, result)
+
 if __name__ == '__main__':
     unittest.main()
